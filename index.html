@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Meu Perfil</title>
+           
+           
+           <style>
+            body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin:0;
+            background:#f4f4f4;
+            color:#333;
+        }
+
+        
+            header{
+            background: linear-gradient(135deg,#4facfe,#00f2fe);
+            color:white;
+            text-align:center;
+            padding:40px 20px;
+        }
+
+          header h1{
+            margin:0;
+            font-size:2.5em;
+        }
+
+        
+        .container{
+            width:90%;
+            max-width:900px;
+            margin:auto;
+            padding:20px;
+        }
+
+       
+        section{
+            background:white;
+            margin:20px 0;
+            padding:20px;
+            border-radius:8px;
+            box-shadow:0 2px 8px rgba(0,0,0,0.3);
+        }
+
+       
+        .skills ul{
+            list-style:none;
+            padding:0;
+        }
+
+        .skills li{
+            background:#4facfe;
+            color:white;
+            display:inline-block;
+            padding:8px 12px;
+            margin:5px;
+            border-radius:5px;
+        }
+
+       
+        form{
+            display:flex;
+            flex-direction:column;
+        }
+
+        input, textarea{
+            margin:8px 0;
+            padding:10px;
+            border:1px solid #ccc;
+            border-radius:5px;
+        }
+
+        button{
+            background:#4facfe;
+            color:white;
+            border:none;
+            padding:10px;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#2f8de0;
+        }
+
+       
+        footer{
+            text-align:center;
+            padding:15px;
+            font-size:14px;
+            color:#666;
+        }
+          
+          </style>
+
+
+         </head>
+       
+      
+      <body>
+
+            <header>
+                <h1>Gustavo Nelson</h1>
+                <p>Estudante de Tecnologia | Desenvolvimento Web | Aprendendo todos os dias</p>
+            </header>
+
+            <div class="container">
+
+            <section class="about">
+                <h2>Sobre Mim</h2>
+                <p>
+                    Sou um desenvolvedor web apaixonado por criar soluções inovadoras e eficientes. Estou sempre aprendendo e buscando novos desafios na área de tecnologia.
+                </p>
+            </section>
+
+                <section class="skills">
+                        <h2>Habilidades</h2>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Bootstrap</li>
+                                <li>Git e GitHub</li>
+                            </ul>
+                </section>
+
+                <section class="contact">
+                        <h2>Contato</h2>
+
+                        <form>
+                            <label>Nome</label>
+                            <input type="text" placeholder="Digite seu nome" required>
+
+                            <label>Email</label>
+                            <input type="email" placeholder="Digite seu email" required>
+
+                            <label>Mensagem</label>
+                            <textarea rows="5" placeholder="Digite sua mensagem"></textarea>
+
+                            <button type="submit">Enviar</button>
+                        </form>
+
+                </section>
+
+            </div>
+
+        <footer>
+            &copy; 2026 - Gustavo Nelson. All rights reserved.
+        </footer>
+
+        </body>
+    </html>
